@@ -1,7 +1,7 @@
 
 module.exports = function towelSort (matrix) {
 
-  if (matrix === [] || matrix === undefined) return [];
+  if (matrix === undefined) return [];
   
   for (i = 0; i < matrix.length; i++) {
     if (i % 2 != 0) {
